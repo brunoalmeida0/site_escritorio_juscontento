@@ -1,0 +1,612 @@
+@charset "UTF-8"
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+*{
+	margin: 0;
+	padding: 0;
+}
+
+p, h1, h2{
+	font-family: 'Roboto', sans-serif;
+}
+
+/* Inicio Menu */
+.menu{
+	position: fixed;
+	width: 100%;
+	height: 140px;
+	background-color: #fff;
+	font-family: 'Roboto', sans-serif;
+	box-shadow: 0px 1px 3px grey;
+	z-index: 1;
+}
+.menu h1{
+	color: #233b67;
+	text-align: center;
+}
+
+.menu ul{
+	color: #233b67;
+	list-style: none;
+	position: relative;
+}
+
+.menu ul li{
+	color: #233b67;
+	display: inline-block;
+	font-size: 1.15em;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+ul.itens{
+	text-align: center;
+}
+
+.menu a{
+	padding: 15px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	background-color: #fff;
+	color: #233b67;
+}
+.menu a:hover{
+	color: #233b67;
+	font-weight: bold;
+}
+
+label[for="bt_menu"]{
+	padding: 5px;
+	background-color: #233b67;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	display: none;
+	position: fixed;
+}
+
+#bt_menu{
+	display: none;
+}
+
+
+#linha{
+	width: 40%;
+	border: solid 0.1px #233b67;;
+	margin-right: auto;
+	margin-left: auto;
+}
+/* Fim Menu */
+
+
+
+/* Inicio Home */
+
+#home{
+	background-image: url('../_imagens/lala2.jpg');
+	background-position-x:center;
+	background-size: cover;
+	padding-top: 150px;
+	width: 100vw;
+	height: 100vh;
+}
+
+p#texto-home{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding-top: 30vh;
+	padding-left: 5vw;
+	font-size: 6vh;
+}
+
+#home span{
+	font-size: 3.5vh;
+}
+
+/* Fim Home */
+
+
+/* Inicio Quem-Somos */
+#quem-somos{
+	height: 80vh;
+	display: table;
+	width: 100%;
+}
+
+.quem-somost{
+	display: table-cell;
+	vertical-align: middle;
+}
+#quem-somos img{
+	padding-top: 17vh;
+}
+
+#quem-somos h1{
+	padding-top: 21vh;
+	color: #233b67;
+	font-size: 2.5vw;
+	font-weight: bold;
+}
+
+#quem-somos h2{
+	text-align: justify;
+	font-size: 1.5em;
+	padding-right: 10%;
+}
+/* Fim Quem-Somos */
+
+
+/* Inicio Serviços */
+#servicos{
+	position: relative;
+	height: 80vh;
+	display: table;
+	width: 100%;
+}
+
+.servicos{
+	display: table-cell;
+	vertical-align: middle;
+	}
+	
+#servicos h1{
+	text-align: center;
+	color: #233b67;
+	font-size: 1.7em;
+}
+#servicos h2{
+	font-size: 1.6em;
+	color: grey;
+	width: 50%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#servicos img{
+	width: 60%;
+	height: auto;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
+}
+
+#servicos a{
+	text-decoration: none;
+}
+
+#texto-servicos p{
+	font-size: 1.5em;
+	text-align: justify;
+	text-decoration: none;
+}
+
+p.link-servico{
+	text-align: center;
+	color: #233b67;
+	font-size: 1em;
+}
+
+p.link-servico:hover{
+	text-decoration: underline;
+}
+p#contato-advogado, p#contato-empresa{
+	margin-top: -7%;
+}
+
+/* Input Servicos*/
+input[type="text"], [type="submit"], textarea, select{
+	background: transparent;
+	border: 2px solid white;
+	color: white;
+	margin-bottom: 5px;
+	resize: none;
+}
+
+.email-servico{
+        background: transparent;
+	border: 2px solid white;
+	color: white;
+	margin-bottom: 5px;
+	resize: none;
+}
+
+input[type="submit"]{
+	background-color: white;
+	color: grey;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+input[type="file"]{
+	display: none;
+}
+
+label{
+	background-color: white;
+	color: grey;
+	cursor: pointer;
+}
+
+select option{
+	color: grey;
+}
+
+::-webkit-input-placeholder{
+	color: white;
+}
+
+
+/* Fim Serviços */
+
+
+/* Inicio Fale Conosco */
+#fale-conosco h2{
+	font-size: 2em;
+	text-align: center;
+	color: grey;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: -7px;
+	padding-bottom: 2%;
+	padding-top: 3%;
+}
+/* Input Fale Conosco*/
+.input-fale-conosco{
+	border: 2px solid #233b67;
+	padding: 5px;
+	margin-bottom: 23px;
+	color: darkblue;
+}
+
+
+.textarea-fale-conosco{
+	border: 2px solid #233b67;
+	padding-top: 5px;
+	height: 23vh;
+	color: #000;
+}
+
+#botao-fale-conosco{
+	background-color: #233b67;
+	color: white;
+	margin-bottom: 7%;
+	border-radius: 15px;
+}
+
+.input-fale-conosco::-webkit-input-placeholder{
+	color: darkblue;
+}
+
+.textarea-fale-conosco::-webkit-input-placeholder{
+	color: darkblue;
+}
+
+/* Fim Fale Conosco */
+
+
+/* Inicio Footer */
+footer{
+	background-color: white;
+	margin-bottom: 10px;
+}
+
+footer p{
+	margin: 0px;
+	text-align: center;
+	font-size: 1em;
+}
+
+#logo-footer{
+	width: 65%;
+	height: auto;
+}
+
+p#praxis{
+	color: #337ab7;
+}
+/* Fim Footer */
+
+
+@media(max-width: 767px){
+
+	#icone{
+		display: block;
+		position:fixed;
+		z-index: 1;
+	}
+
+	.menu-active{
+		margin-left: 0;
+		position: fixed;
+		width: 100%;
+		height: 20%;
+		background-color: #fff;
+		box-shadow: 0px 1px 1px grey;
+		z-index: 1;
+	}
+
+	.some{
+		display: none;
+	}
+	.menu{
+		margin-top: 0px;
+		margin-left: -100%;
+		transition: all .4s;
+	}
+
+
+	.menu-active h1{
+		color: #000;
+		text-align: center;
+	}
+
+	.menu-active ul{
+		font-size: 2vh;
+		padding-left: 0px;
+		list-style: none;
+		position: relative;
+	}
+
+	.menu-active ul li{
+		border-top: 1px #000 solid;
+		font-size: 2vh;
+		width: 100%;
+		float: none;
+	}
+
+	.menu-active a{
+		padding: 15px;
+		display: block;
+		text-decoration: none;
+		text-align: center;
+		background-color: #fff;
+		color: #000;
+	}
+	.menu-active a:hover{
+		color: #000;
+	}
+
+	#home{
+		background-position: right;
+	}
+
+	#quem-somos{
+		/*height: 900px;*/
+		padding-top: 5vh;
+	}
+
+	#quem-somos img{
+		padding-top: 0vh;
+	}
+
+	#quem-somos h1{
+		text-align: center;
+		padding-top: 5vh;
+		margin-top: 0px;
+		font-size: 4vh;
+	}
+
+	#quem-somos h2{
+		font-size: 2.7vh;
+		padding-right: 0;
+	}
+
+	#servicos{
+		margin-top: 23vh;
+	}
+
+	#servicos .img-servicos{
+		padding-top: 10vh;
+		margin-top: 0;
+	}
+
+	#servicos p{
+		font-size: 2.7vh;
+		text-align: center;
+	}
+
+	div#texto-servicos p{
+		margin-bottom: 10vh;
+		text-align: justify;
+	}
+
+	a.closebtn{
+		margin-top: -5%;
+	}
+	p#contato-advogado, p#contato-empresa{
+		margin-top: -25%;
+	}
+
+	#referencia-fale-conosco{
+		height: 0vh;
+	}
+
+	#logo-footer{
+		width: 50%;
+		height: auto;
+		margin-left: 20%;
+	}
+
+	p#texto-home{
+		color: white;
+		padding-top: 5vh;
+		padding-left: 5vw;
+		font-size: 3em;
+	}
+
+	#fale-conosco h2{
+		margin-bottom: 3px;
+	}
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+	#home p{
+		font-size: 4vh;
+	}
+
+	#home span{
+		font-size: 2.5vh;
+	}
+	#quem-somos img{
+		margin-top: 40px;
+	}
+
+	#quem-somos h1{
+		margin-top: 55px;
+	}
+	#quem-somos h2{
+		font-size: 2vh;
+	}
+
+	#servicos{
+		padding-top: 30px;
+	}
+
+	#fale-conosco textarea{
+		height: 150px;
+	}
+}
+
+
+/* Overlay1 daqui para baixo */
+
+/* The Overlay (background) */
+.overlay1 {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 999999; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-image: url('../_imagens/fale_com_um_advogado.jpg');
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content1 {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay1 a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay1 a:hover, .overlay1 a:focus {
+    color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay1 .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.overlay-content1 p{
+	font-size: 2em;
+	color: white;
+	font-weight: bolder;
+}
+
+
+/* Overlay2 daqui para baixo */
+/* The Overlay (background) */
+.overlay2 {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 999999; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-image: url('../_imagens/correspondente.jpg');
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content2 {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay2 a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay2 a:hover, .overlay1 a:focus {
+    color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay2 .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.overlay-content2 p{
+	font-size: 2em;
+	color: white;
+	font-weight: bolder;
+}
+
+@media(max-width: 767px){
+	.overlay1{
+		transition: 1.2s;
+	}
+
+	.overlay2{
+		transition: 1.2s;
+	}
+
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}

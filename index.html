@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Site da Dra Esmeralda Costa, inscrita na OAB/Ba 26.844. Em virtude de sua experiência, bem como através de cursos e especializações realizadas pela mesma nas áreas de suas principais atividades (tributário, civel e consumidor),os clientes dispõem de uma profissional versátil e capaz de apresentar soluções rápidas e eficientes atendendo de maneira satisfatória as demandas patrocinadas.">
+  	<meta name="keywords" content="juscontento advocacia advogado salvador bahia direito consumo tributário cível arbitragem oab">
+  	<meta name="author" content="Praxis - Empresa Jr.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/svg" href="http://www.free-icons-download.net/images/libra-zodiac-icons-95286.png"/>
+	<!-- BOOTSTRAP -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<!-- BOOTSTRAP -->
+	<link rel="stylesheet" type="text/css" href="_css/main.css">
+
+	<title>JUSCONTENTO</title>
+</head>
+<body>
+<div class="tudo">
+	<label id="icone" class="menu-anchor" for="bt_menu">&#9776;</label>
+	<nav id="barra" class="menu">
+		<h1>JUSCONTENTO</h1>
+			<div id="linha"></div>
+			<ul class="itens">
+				<li><a id="primeiro" href="#home" class="scroll">Home</a></li>
+				<li><a id="segundo" href="#quem-somos" class="scroll">Quem Somos</a></li>
+				<li><a id="terceiro" href="#servicos" class="scroll">Serviços</a></li>
+				<li><a id="quarto" href="#referencia-fale-conosco" class="scroll2">Contato</a></li>
+			</ul>
+	</nav>
+
+	<!-- Seções -->
+	<div id="secoes">
+
+		<!-- Home -->
+		<div id="home" class="img-responsive">
+			<p id="texto-home">"O direito não socorre aos que dormem." <br><span>Brocardo jurídico</span></p>
+		</div>
+		<!-- Home -->
+
+
+		<!-- Quem Somos -->
+		<div id="quem-somos">
+		
+			<img id="img-quem-somos" class="col-md-offset-1 col-md-3 col-sm-offset-1 col-sm-4 col-xs-offset-1 col-xs-10" src="_imagens/advogada_Seção2_redondo.jpg" alt="">
+			<div id="textos-quem-somos" class="col-md-offset-0 col-md-8 col-sm-6 col-xs-offset-1 col-xs-10">
+				<h1><strong>Bem-vindo ao Juscontento</strong></h1>
+				<h2 style="font-size: 1.4em;">Nosso escritório conta com profissionais com grande experiência no campo jurídico com cursos de especialização nas áreas em que atuam, principalmente com relação a Direito Empresarial/Tributário, Consumidor e Cível. Nossos clientes contam com profissionais capazes, de apresentar soluções rápidas e eficientes, atendendo de forma satisfatória as demandas patrocinadas.</h2>
+			</div>
+		
+		</div>
+		<!-- Quem Somos -->
+
+		<!-- Serviços -->
+		<div id="servicos">
+		<div class="servicos">
+			<div id="servico1" class="col-md-offset-2 col-md-3 col-sm-offset-1 col-sm-5 col-xs-offset-1 col-xs-10">
+
+			<!-- Overlay fale com um advogado -->
+				<span onclick="openNav1()">
+					<a href="#" onclick="return false;">
+						<img src="_imagens/imagem1-secao3.png" class="img-servicos img-responsive" alt="">
+						<h1><strong>FALE COM UM ADVOGADO</strong></h1>
+						<p class="link-servico">Clique aqui e envie sua mensagem</p>
+					</a>
+				</span>
+
+				<div id="myNav1" class="overlay1">
+
+				  <!-- Botão para fechar o overlay -->
+				  <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</a>
+
+				  <!-- Conteudo Overlay -->
+					<div class="overlay-content1">
+						<p id="contato-advogado">FALE COM UM ADVOGADO </p>
+						<form action="_php/contatoadv.php" method="post" enctype="multipart/form-data">
+						<input class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6 col-xs-offset-1 col-xs-10" type="text" name="nome1" placeholder="Nome: " required><br>
+						<input class="email-servico col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6 col-xs-offset-1 col-xs-10" type="email" name="email1" placeholder="E-mail: " required><br>
+						<input class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6 col-xs-offset-1 col-xs-10" type="text" name="assunto1" placeholder="Assunto: " required><br>
+						<select class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6 col-xs-offset-1 col-xs-10" name="area1" id="">
+							<option selected disabled>Selecione a área</option>
+							<option value="consumo">Consumo</option>
+							<option value="direito-empresarial">Direito Empresárial</option>
+							<option value="civel">Cível</option>
+							<option value="tributario">Tributário</option>
+							<option value="arbitragem">Arbitragem Judicial</option>
+							<option value="duvidas">Dúvidas Gerais</option>							
+						</select><br>
+						<textarea class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6 col-xs-offset-1 col-xs-10" placeholder="Digite sua mensagem..." name="mensagem1" rows="10" cols="30" required></textarea>
+						<label class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6 col-xs-offset-1 col-xs-10" for='selecao-arquivo'>Carregar documentos</label>
+						<input id="selecao-arquivo" name="uploaded_file" type="file">
+						<input class="col-md-offset-5 col-md-2 col-sm-offset-5 col-sm-2 col-xs-offset-1 col-xs-10" type="submit" value="Enviar" onclick="enviado()">
+						</form>
+				  	</div>
+				</div>
+			</div>
+
+			<!-- Overlay fale com um advogado -->
+
+			<!-- Overlay Assessoria Empresarial -->
+			<div id="servico2" class="col-md-offset-2 col-md-3 col-sm-5 col-xs-offset-1 col-xs-10">
+				<span onclick="openNav2()">
+					<a href="#" onclick="return false;">
+						<img src="_imagens/imagem2-secao3.png" class="img-responsive" alt="">
+						<h1><strong>ASSESSORIA EMPRESARIAL</strong></h1>
+						<p class="link-servico">Clique aqui e envie sua mensagem</p>
+					</a>
+				</span>
+
+				<div id="myNav2" class="overlay2">
+
+				  <!-- Botão para fechar o overlay -->
+				  <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
+
+				  <!-- Conteudo Overlay -->
+				  <div class="overlay-content2">
+
+					<p id="contato-empresa">ASSESSORIA EMPRESARIAL</p>
+					<form action="_php/contatoasse.php" method="post" enctype="multipart/form-data">
+						<input class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6 col-xs-offset-1 col-xs-10" type="text" name="nome2" placeholder="Nome: " required><br>
+						<input class="email-servico col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6 col-xs-offset-1 col-xs-10" type="email" name="email2" placeholder="E-mail: " required><br>
+						<input class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6 col-xs-offset-1 col-xs-10" type="text" name="assunto2" placeholder="Assunto: " required><br>
+						<select class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6 col-xs-offset-1 col-xs-10" name="area2" id="">
+							<option selected disabled>Selecione a área</option>
+							<option value="consumo">Consumo</option>
+							<option value="direito-empresarial">Direito Empresárial</option>
+							<option value="civel">Cível</option>
+							<option value="tributario">Tributário</option>
+							<option value="arbitragem">Arbitragem Judicial</option>
+							<option value="duvidas">Dúvidas Gerais</option>							
+						</select><br>
+						<textarea class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6 col-xs-offset-1 col-xs-10" placeholder="Digite sua mensagem..." name="mensagem2" rows="10" cols="30" required></textarea>
+						<label class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6 col-xs-offset-1 col-xs-10" for='selecao-arquivo2'>Carregar documentos</label>
+						<input id="selecao-arquivo2" name="uploaded_file" type="file">
+						<input class="col-md-offset-5 col-md-2 col-sm-offset-5 col-sm-2 col-xs-offset-1 col-xs-10" type="submit" value="Enviar" onclick="enviado()">
+						</form>
+				  </div>
+				</div>
+
+			</div>
+
+			<div id="texto-servicos" class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">
+				<p style="font-size: 1.2em;">O Juscontento garante a excelência em seus ramos de atuação, visando não só superar as expectativas dos clientes e dos colaboradores, mas também que eles se identifiquem com os valores do escritório, desenvolvendo um trabalho de máxima qualidade, pautado pela confiança e desenvolvido por profissionais focados e capacitados. Ademais, para garantir um atendimento personalizado, cada departamento interno atua como um verdadeiro escritório autônomo, sempre com foco no trabalho em equipe, assistindo às peculiaridades de cada cliente. Dentre as principais áreas de atuação da sociedade, pode-se mencionar as seguintes: Consumidor, Cível, Empresarial/Tributário e Arbitragem Judicial.</p>
+			</div>
+			<!-- Overlay Assessoria Empresarial -->
+		</div>
+		</div>
+		<!-- Serviços -->
+
+		<!-- Fale Conosco -->
+		<div id="fale-conosco">
+			<h2>FALE CONOSCO</h2>
+			<div id="referencia-fale-conosco"></div>
+			<div id="esquerda-faleconosco" class="col-md-offset-2 col-md-4 col-sm-offset-3 col-sm-3 col-xs-offset-1 col-xs-10">
+			<form class="" action="_php/contato.php" method="post">
+				<input class="input-fale-conosco col-md-12 col-sm-12 col-xs-12" name="nome3" placeholder="NOME" required>
+				<input type="email" class="input-fale-conosco col-md-12 col-sm-12 col-xs-12" name="email3" size="45%" placeholder="E-MAIL" required>
+				<input class="input-fale-conosco col-md-12 col-sm-12 col-xs-12" name="assunto3" size="45%" placeholder="ASSUNTO" required>
+			</div>
+
+			<div id="direita-faleconosco" class="col-md-offset-0 col-md-4 col-sm-offset-0 col-sm-3 col-xs-offset-2 col-xs-8">
+				<textarea class="textarea-fale-conosco col-md-12 col-sm-12 col-xs-12" name="mensagem3" placeholder="MENSAGEM" rows="6" cols="70" maxlength="500" required></textarea>
+			</div>
+
+			<input id="botao-fale-conosco" onclick="enviado()" class="col-md-offset-4 col-md-4 col-sm-offset-4 col-sm-4 col-xs-offset-1 col-xs-10" type="submit" name=""><br>
+			</form>
+
+		</div>
+		<!-- Fale Conosco -->
+
+
+		<!-- Footer -->
+		<footer class="col-md-12 col-sm-12 col-xs-12">
+			<div class="col-md-offset-1 col-md-2 col-sm-offset-1 col-sm-2 col-xs-offset-1 col-sm-10">
+				<img id="logo-footer" class="" src="_imagens/logo.png" alt="">
+			</div>
+			<div id="contato-footer" class="col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-4 col-xs-offset-0 col-sm-10" style="padding-top: 10px;">
+				<p>☎ (71) 9 9964-0863</p>
+				<p>&#9993; <strong>contato@juscontento.com.br</strong></p>
+				<p>&#8962; Rua Barros Pimentel, nº 119, Pituaçu <br>Salvador-BA</p>
+			</div>
+			<p id="praxis" class="col-md-12 col-sm-12 col-xs-12">Desenvolvido por <a href="http://www.praxisjr.com/" target="_blank">Praxis - Empresa Jr.</a> - © Todos os direitos reservados</p>
+		</footer>
+		<!-- Footer -->
+	</div>
+	<!-- Seções -->
+</div>
+</body>
+<script>
+	function openNav1() {
+    	document.getElementById("myNav1").style.width = "100%";
+	}
+
+	/* Close when someone clicks on the "x" symbol inside the overlay */
+	function closeNav1() {
+	    document.getElementById("myNav1").style.width = "0%";
+	}
+</script>
+
+<script>
+	function openNav2() {
+    document.getElementById("myNav2").style.width = "100%";
+}
+	/* Close when someone clicks on the "x" symbol inside the overlay */
+	function closeNav2() {
+	    document.getElementById("myNav2").style.width = "0%";
+	}
+</script>
+<script>
+	function myFunction() {
+	    var x = document.getElementById("arquivoPF");
+	    x.disabled = true;
+	}
+</script>
+<script
+  	src="https://code.jquery.com/jquery-3.2.1.min.js"
+  	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  	crossorigin="anonymous"></script>
+	<script type="text/javascript" src="_javascript/javascript.js"></script>
+  	<script type="text/javascript">
+	  	jQuery(document).ready(function($){
+		  	$(".scroll").click(function(event){
+			  	if ($(window).width() > 768){
+				  	event.preventDefault();
+				  	$('html,body').animate({scrollTop:$(this.hash).offset().top - 140}, 900);
+			  	}
+			  	if ($(window).width() < 768){			  		
+				  	event.preventDefault();
+				  	$('html,body').animate({scrollTop:$(this.hash).offset().top}, 900);
+				  	
+			  	}
+		  	});
+	  	});
+</script>
+<script type="text/javascript">
+	  	jQuery(document).ready(function($){
+		  	$(".scroll2").click(function(event){
+			  	if ($(window).width() > 768){
+				  	event.preventDefault();
+				  	$('html,body').animate({scrollTop:$(this.hash).offset().top - 140}, 900);
+			  	}
+			  	if ($(window).width() < 768){			  		
+				  	event.preventDefault();
+				  	$('html,body').animate({scrollTop:$(this.hash).offset().top - 60}, 900);
+				  	
+			  	}
+		  	});
+	  	});
+</script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.4.0/jquery.localScroll.min.js"></script>
+</html>
